@@ -52,4 +52,14 @@ public class ReportView {
      * 更新日時
      */
     private LocalDateTime updatedAt;
+
+    /**
+     * 出勤時刻
+     */
+    private String timeIn;
+
+    /**
+     * 退勤時刻
+     */
+    private String timeOut;
 }

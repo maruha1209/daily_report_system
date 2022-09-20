@@ -23,6 +23,8 @@
                     <th class="report_date">日付</th>
                     <th class="report_title">タイトル</th>
                     <th class="report_action">操作</th>
+
+
                 </tr>
                 <c:forEach var="report" items="${reports}" varStatus="status">
                     <fmt:parseDate value="${report.reportDate}" pattern="yyyy-MM-dd" var="reportDay" type="date" />
